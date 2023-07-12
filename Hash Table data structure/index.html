@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hash Table</title>
+  <style>
+    /* Some basic styling for the hash table */
+    table {
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 5px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hash Table</h1>
+  <label for="key">Key:</label>
+  <input type="text" id="key">
+  <label for="value">Value:</label>
+  <input type="text" id="value">
+  <button onclick="insert()">Insert</button>
+  <button onclick="remove()">Remove</button>
+  <button onclick="retrieve()">Retrieve</button>
+  <table id="table">
+    <thead>
+      <tr>
+        <th>Key</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+  </table>
+  <script src="hashTable.js"></script>
+</body>
+</html>

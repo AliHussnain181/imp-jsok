@@ -1,0 +1,32 @@
+#text-input {
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 600px;
+  }
+  
+  .key {
+    flex-basis: 10%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .key:hover {
+    background-color: #ccc;
+  }
+  
+  .active {
+    background-color: #ccc;
+  }
+  
